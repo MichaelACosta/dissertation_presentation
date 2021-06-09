@@ -27,46 +27,44 @@
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\slideentry {3}{0}{4}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {3}{0}{5}{11/11}{}{0}}
+\headcommand {\beamer@sectionpages {7}{10}}
+\headcommand {\beamer@subsectionpages {7}{10}}
+\headcommand {\sectionentry {4}{Arquiteturas}{11}{Arquiteturas}{0}}
+\headcommand {\slideentry {4}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@sectionpages {7}{11}}
-\headcommand {\beamer@subsectionpages {7}{11}}
-\headcommand {\sectionentry {4}{Arquiteturas}{12}{Arquiteturas}{0}}
-\headcommand {\slideentry {4}{0}{1}{12/12}{}{0}}
+\headcommand {\beamer@sectionpages {11}{11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\sectionentry {5}{Objetivos}{12}{Objetivos}{0}}
+\headcommand {\slideentry {5}{0}{1}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@sectionpages {12}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\sectionentry {5}{Objetivos}{13}{Objetivos}{0}}
-\headcommand {\slideentry {5}{0}{1}{13/13}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {5}{0}{2}{14/14}{}{0}}
+\headcommand {\slideentry {5}{0}{3}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {5}{0}{3}{15/15}{}{0}}
+\headcommand {\slideentry {5}{0}{4}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {5}{0}{4}{16/16}{}{0}}
+\headcommand {\slideentry {5}{0}{5}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {5}{0}{5}{17/17}{}{0}}
+\headcommand {\slideentry {5}{0}{6}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {5}{0}{6}{18/18}{}{0}}
+\headcommand {\slideentry {5}{0}{7}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {5}{0}{7}{19/19}{}{0}}
+\headcommand {\beamer@sectionpages {12}{18}}
+\headcommand {\beamer@subsectionpages {12}{18}}
+\headcommand {\sectionentry {6}{Próximas Atividades}{19}{Próximas Atividades}{0}}
+\headcommand {\slideentry {6}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@sectionpages {13}{19}}
-\headcommand {\beamer@subsectionpages {13}{19}}
-\headcommand {\sectionentry {6}{Próximas Atividades}{20}{Próximas Atividades}{0}}
-\headcommand {\slideentry {6}{0}{1}{20/20}{}{0}}
+\headcommand {\beamer@sectionpages {19}{19}}
+\headcommand {\beamer@subsectionpages {19}{19}}
+\headcommand {\sectionentry {7}{Cronograma de Atividades}{20}{Cronograma de Atividades}{0}}
+\headcommand {\slideentry {7}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@sectionpages {20}{20}}
-\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\sectionentry {7}{Cronograma de Atividades}{21}{Cronograma de Atividades}{0}}
-\headcommand {\slideentry {7}{0}{1}{21/21}{}{0}}
+\headcommand {\slideentry {7}{0}{2}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {7}{0}{2}{22/22}{}{0}}
+\headcommand {\slideentry {7}{0}{3}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {7}{0}{3}{23/23}{}{0}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@subsectionpages {21}{23}}
-\headcommand {\beamer@sectionpages {21}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {20}{22}}
+\headcommand {\beamer@sectionpages {20}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {22}}
