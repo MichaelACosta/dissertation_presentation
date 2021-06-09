@@ -147,107 +147,107 @@
     \end{block}
 \end{frame}
 
-\begin{frame} \frametitle{Memórias Transacionais}
-    \begin{block}{Controle das transações}
-        \begin{itemize}
-    		\item Versionamento de Dados:
-    		\begin{itemize}
-    			\item Adiantado / Tardio.
-    		\end{itemize}
-    		\item Detecção de Conflitos:
-    		\begin{itemize}
-    			\item Adiantado / Tardio.
-    		\end{itemize}
-    		\item Gerenciamento de Contenção:
-        		\begin{itemize}
-        		    \item Suicide, Delay, Backoff ou Modular.
-        		\end{itemize}
-        \end{itemize}
-    \end{block}
-\end{frame}
+% \begin{frame} \frametitle{Memórias Transacionais}
+%     \begin{block}{Controle das transações}
+%         \begin{itemize}
+%     		\item Versionamento de Dados:
+%     		\begin{itemize}
+%     			\item Adiantado / Tardio.
+%     		\end{itemize}
+%     		\item Detecção de Conflitos:
+%     		\begin{itemize}
+%     			\item Adiantado / Tardio.
+%     		\end{itemize}
+%     		\item Gerenciamento de Contenção:
+%         		\begin{itemize}
+%         		    \item Suicide, Delay, Backoff ou Modular.
+%         		\end{itemize}
+%         \end{itemize}
+%     \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Memórias Transacionais}
-\begin{block}{Versionamento Adiantado}
-\begin{itemize}
-	\item Escreve os dados especulativos direto na memória; e
-	\item Em caso de um cancelamento, a operação deve ser desfeita.
-\end{itemize}
-% \begin{figure}[!h]
-% 	\includegraphics[scale=0.3]{images/versionamento_adiantado}
-% 	\caption{Versionamento Adiantado}
-% 	\label{fig:abusy}
-% \end{figure}
-\end{block}
-\begin{block}{Versionamento Tardio}
-\begin{itemize}
-	\item Escreve os dados especulativos em um \textit{buffer} local; e
-	\item Em caso de efetivação, os dados devem ser copiados para a memória.
-\end{itemize}
-% \begin{figure}[!h]
-% 	\centering
-% 	\includegraphics[scale=0.3]{images/versionamento_tardio}
-% 	\caption{Versionamento Tardio}
-% 	\label{fig:abusy}
-% \end{figure}
-% \begin{figure}[!h]
-% 	\centering
-% 	\includegraphics[scale=0.3]{images/versionamento_tardio}
-% 	\caption{Versionamento Tardio}
-% 	\label{fig:abusy}
-% \end{figure}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Memórias Transacionais}
+% \begin{block}{Versionamento Adiantado}
+% \begin{itemize}
+% 	\item Escreve os dados especulativos direto na memória; e
+% 	\item Em caso de um cancelamento, a operação deve ser desfeita.
+% \end{itemize}
+% % \begin{figure}[!h]
+% % 	\includegraphics[scale=0.3]{images/versionamento_adiantado}
+% % 	\caption{Versionamento Adiantado}
+% % 	\label{fig:abusy}
+% % \end{figure}
+% \end{block}
+% \begin{block}{Versionamento Tardio}
+% \begin{itemize}
+% 	\item Escreve os dados especulativos em um \textit{buffer} local; e
+% 	\item Em caso de efetivação, os dados devem ser copiados para a memória.
+% \end{itemize}
+% % \begin{figure}[!h]
+% % 	\centering
+% % 	\includegraphics[scale=0.3]{images/versionamento_tardio}
+% % 	\caption{Versionamento Tardio}
+% % 	\label{fig:abusy}
+% % \end{figure}
+% % \begin{figure}[!h]
+% % 	\centering
+% % 	\includegraphics[scale=0.3]{images/versionamento_tardio}
+% % 	\caption{Versionamento Tardio}
+% % 	\label{fig:abusy}
+% % \end{figure}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Memórias Transacionais}
-\begin{block}{Detecção de Conflitos Adiantada}
-\begin{itemize}
-	\item Detecta conflito no momento do acesso a memória.
-\end{itemize}
-% \begin{figure}[!h]
-% 	\centering	
-% 	\includegraphics[scale=0.3]{images/deteccao_adiantada}
-% 	\caption{Detecção Adiantada}
-% 	\label{fig:abusy}
-% \end{figure}
-\end{block}
-\begin{block}{Detecção de Conflitos Tardia}
-\begin{itemize}
-	\item Detecta conflito somente na validação.
-\end{itemize}
-% \begin{figure}[!h]
-% 	\includegraphics[scale=0.3]{images/deteccao_tardio}
-% 	\caption{Detecção Tardia}
-% 	\label{fig:abusy}
-% \end{figure}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Memórias Transacionais}
+% \begin{block}{Detecção de Conflitos Adiantada}
+% \begin{itemize}
+% 	\item Detecta conflito no momento do acesso a memória.
+% \end{itemize}
+% % \begin{figure}[!h]
+% % 	\centering	
+% % 	\includegraphics[scale=0.3]{images/deteccao_adiantada}
+% % 	\caption{Detecção Adiantada}
+% % 	\label{fig:abusy}
+% % \end{figure}
+% \end{block}
+% \begin{block}{Detecção de Conflitos Tardia}
+% \begin{itemize}
+% 	\item Detecta conflito somente na validação.
+% \end{itemize}
+% % \begin{figure}[!h]
+% % 	\includegraphics[scale=0.3]{images/deteccao_tardio}
+% % 	\caption{Detecção Tardia}
+% % 	\label{fig:abusy}
+% % \end{figure}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Memórias Transacionais}
-    \begin{block}{Gerenciador de Contenção}
-        \begin{itemize}
-        	\item Possui ação reativa;
-        	\item Suicide, Delay, Backoff ou Modular.
-        % 	\begin{itemize}
-        % 	    \item Suicide, Delay, Aggressive, e Timestamp.
-        %     \end{itemize}
-        \end{itemize}
-    \end{block}
-    \begin{block}{Gerenciador de Contenção}
-        \begin{itemize}
-            \item Modular:
-            \begin{itemize}
-    	        \item Suicide, Delay, Aggressive, e Timestamp.
-            \end{itemize}
-        \end{itemize}
-    \end{block}
-    % \begin{alertblock}{Problemas}
-    %     \begin{itemize}
-    %     	\item Somente reinicia a transação conflitante;
-    %     	\item Não evita que conflitos futuros aconteçam; e
-    %     	\item Em ambientes de alta contenção, tende a perder desempenho.
-    %     \end{itemize}
-    % \end{alertblock}
-\end{frame}
+% \begin{frame} \frametitle{Memórias Transacionais}
+%     \begin{block}{Gerenciador de Contenção}
+%         \begin{itemize}
+%         	\item Possui ação reativa;
+%         	\item Suicide, Delay, Backoff ou Modular.
+%         % 	\begin{itemize}
+%         % 	    \item Suicide, Delay, Aggressive, e Timestamp.
+%         %     \end{itemize}
+%         \end{itemize}
+%     \end{block}
+%     \begin{block}{Gerenciador de Contenção}
+%         \begin{itemize}
+%             \item Modular:
+%             \begin{itemize}
+%     	        \item Suicide, Delay, Aggressive, e Timestamp.
+%             \end{itemize}
+%         \end{itemize}
+%     \end{block}
+%     % \begin{alertblock}{Problemas}
+%     %     \begin{itemize}
+%     %     	\item Somente reinicia a transação conflitante;
+%     %     	\item Não evita que conflitos futuros aconteçam; e
+%     %     	\item Em ambientes de alta contenção, tende a perder desempenho.
+%     %     \end{itemize}
+%     % \end{alertblock}
+% \end{frame}
 
 \begin{frame} \frametitle{Memórias Transacionais}
     % \begin{block}{Gerenciador de Contenção}
