@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  8 JUN 2021 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  8 JUN 2021 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1603,6 +1603,14 @@ l.355 \end{frame}
 
 ] [12
 
+] [13
+
+] [14
+
+] [15
+
+] [16
+
 ]
 \tf@nav=\write7
 \openout7 = `dissertation.nav'.
@@ -1613,23 +1621,23 @@ l.355 \end{frame}
 \tf@snm=\write9
 \openout9 = `dissertation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
  (./dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: FD3DC53E3078DE5504C618848AAB6889;206.
+(rerunfilecheck)             Checksum: B8604E1719698B7E53661F68C9B64A71;384.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34847 strings out of 481239
- 816729 string characters out of 5920377
- 1214821 words of memory out of 5000000
- 49282 multiletter control sequences out of 15000+600000
+ 34883 strings out of 481239
+ 817053 string characters out of 5920377
+ 1215821 words of memory out of 5000000
+ 49306 multiletter control sequences out of 15000+600000
  593775 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,103p,775b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1638,10 +1646,10 @@ e/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on dissertation.pdf (12 pages, 91538 bytes).
+Output written on dissertation.pdf (16 pages, 98036 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

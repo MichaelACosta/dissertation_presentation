@@ -3,3 +3,7 @@
 \beamer@sectionintoc {2}{Memórias Transacionais}{5}{0}{2}
 \beamer@sectionintoc {3}{Escalonadores}{7}{0}{3}
 \beamer@sectionintoc {4}{Arquiteturas}{11}{0}{4}
+\beamer@sectionintoc {5}{LTMS}{12}{0}{5}
+\beamer@sectionintoc {6}{Experimentos}{13}{0}{6}
+\beamer@sectionintoc {7}{Resultados}{14}{0}{7}
+\beamer@sectionintoc {8}{Conclusão}{15}{0}{8}
