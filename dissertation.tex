@@ -386,73 +386,73 @@ MCATS & Modelo Analítico \\
 \end{block}
 \end{frame}
 
-\section{Objetivos}
-\begin{frame} \frametitle{Objetivos}
-\begin{block}{Objetivos}
-\begin{itemize}
-	\item Estudar o comportamento dos escalonadores na arquitetura NUMA;
-	\item Inserir as novas regras de escalonamento para arquitetura NUMA.
-\end{itemize}
-\end{block}
-\end{frame}
+% \section{Objetivos}
+% \begin{frame} \frametitle{Objetivos}
+% \begin{block}{Objetivos}
+% \begin{itemize}
+% 	\item Estudar o comportamento dos escalonadores na arquitetura NUMA;
+% 	\item Inserir as novas regras de escalonamento para arquitetura NUMA.
+% \end{itemize}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-    \begin{block}{Ferramentas utilizadas}
-        \begin{itemize}
-        	\item Shrink;
-        	\item TinySTM;
-        	\item Hwloc; e
-        	\item STAMP.
-        \end{itemize}
-    \end{block}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+%     \begin{block}{Ferramentas utilizadas}
+%         \begin{itemize}
+%         	\item Shrink;
+%         	\item TinySTM;
+%         	\item Hwloc; e
+%         	\item STAMP.
+%         \end{itemize}
+%     \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-\begin{block}{O que foi feito}
-    \begin{itemize}
-        \item Foi implementado um escalonador com filas de threads para cada núcleo;
-        \item Foi feito um escalonador que migra threads;
-    	\item Foram estudados os algoritmos de escalonamentos atuais; e
-    	\item Foi desenvolvido um novo fluxo de execução para o Shrink.
-    \end{itemize}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+% \begin{block}{O que foi feito}
+%     \begin{itemize}
+%         \item Foi implementado um escalonador com filas de threads para cada núcleo;
+%         \item Foi feito um escalonador que migra threads;
+%     	\item Foram estudados os algoritmos de escalonamentos atuais; e
+%     	\item Foi desenvolvido um novo fluxo de execução para o Shrink.
+%     \end{itemize}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-\begin{block}{O que será feito}
-\begin{itemize}
-	\item Modificar a implementação de threads do Shrink para utilizar filas;
-	\item Coletar informações da latência de acordo com o Bloom Filter; e
-	\item Adicionar a migração de threads ao Shrink.
-\end{itemize}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+% \begin{block}{O que será feito}
+% \begin{itemize}
+% 	\item Modificar a implementação de threads do Shrink para utilizar filas;
+% 	\item Coletar informações da latência de acordo com o Bloom Filter; e
+% 	\item Adicionar a migração de threads ao Shrink.
+% \end{itemize}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-\begin{block}{Modificações e nomenclatura}
-\begin{itemize}
-	\item Cada núcleo possuirá uma fila de threads que chamamos de Qn;
-	\item O escalonador possuirá uma fila de threads inicial chamada de Pt; e
-	\item Uma Thread (Tn) pode ter n transações que chamamos de Tr.
-\end{itemize}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+% \begin{block}{Modificações e nomenclatura}
+% \begin{itemize}
+% 	\item Cada núcleo possuirá uma fila de threads que chamamos de Qn;
+% 	\item O escalonador possuirá uma fila de threads inicial chamada de Pt; e
+% 	\item Uma Thread (Tn) pode ter n transações que chamamos de Tr.
+% \end{itemize}
+% \end{block}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-    \begin{figure}[!h]
-	    \includegraphics[scale=0.25]{images/ShrinkFlow}
-	    \caption{Shrink}
-	    \label{fig:abusy}
-    \end{figure}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+%     \begin{figure}[!h]
+% 	    \includegraphics[scale=0.25]{images/ShrinkFlow}
+% 	    \caption{Shrink}
+% 	    \label{fig:abusy}
+%     \end{figure}
+% \end{frame}
 
-\begin{frame} \frametitle{Metodologia}
-    \begin{figure}[!h]
-	    \includegraphics[scale=0.25]{images/LScheduleFlow}
-	    \caption{Modificações}
-	    \label{fig:abusy}
-    \end{figure}
-\end{frame}
+% \begin{frame} \frametitle{Metodologia}
+%     \begin{figure}[!h]
+% 	    \includegraphics[scale=0.25]{images/LScheduleFlow}
+% 	    \caption{Modificações}
+% 	    \label{fig:abusy}
+%     \end{figure}
+% \end{frame}
 
 \section{Próximas Atividades}
 \begin{frame} \frametitle{Próximas Atividades}
