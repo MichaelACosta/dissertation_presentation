@@ -67,15 +67,14 @@
 %==================================================================================
 
 %EVENTO
-\renewcommand{\evento}{Seminário de Andamento}
+\renewcommand{\evento}{Defesa de Mestrado}
 
 % TITULO DA APRESENTACAO
-\title{Escalonador de Transações para arquitetura NUMA}
+\title{LTMS - Lups Transactional Memory Scheduler: Um escalonador NUMA-Aware para STM.}
 
 %Autor
 \author{\textbf{Michael Alexandre Costa}\\
 \and Prof. Dr. André Rauber Du Bois (Orientador) \\
-% \and Prof. Dr. Gerson Geraldo H. Cavalheiro (Co-orientador)
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,14 +113,6 @@
         	\item Memórias Transacionais;
         	\item Escalonadores de Transações; e
         	\item Arquiteturas NUMA.
-        	
-        \end{itemize}
-    \end{block}
-    \begin{block}{Uso Comercial}
-        \begin{itemize}
-        	\item Wyatt Technology;
-        	\item Sistema de coleta e análise de dados na biomedicina; e
-        	\item Apresentam problemas de desempenho conforme aumentam o paralelismo.
         \end{itemize}
     \end{block}
 \end{frame}
@@ -129,8 +120,9 @@
 \begin{frame} \frametitle{Introdução}
     \begin{block}{Objetivos}
         \begin{itemize}
-        	\item Analisar o comportamento de escalonadores de transações em arquiteturas NUMA; e
-        	\item Fornecer um escalonador de transações voltado a arquitetura NUMA.
+        	\item Projetar um escalonador de STM modular que considera a arquitetura utilizada, intitulado LTMS;
+        	\item Prototipar o escalonador LTMS, utilizando a biblioteca de STM TinySTM; e
+			\item Análisar de desempenho do LTMS comparado a TinySTM utilizando o conjunto de benchmarks STAMP.
         \end{itemize}
     \end{block}
 \end{frame}
