@@ -1,0 +1,12 @@
+\begin{tabular}{c|c|c|c|c|c|c|c|c} \hline
+	Ano & \multicolumn{5}{|c|}{2017} & \multicolumn{3}{|c}{2018} \\ \hline
+	Mês & Ago & Set & Out & Nov & Dez & Jan & Fev & Mar \\ \hline
+	I & X &   &   &   &   &   &   & \\ \hline
+	II & X &   &   &   &   &   &   & \\ \hline
+	III &   & X &   &   &   &   &   & \\ \hline
+	IV &   & X & X & X & X & X &   & \\ \hline
+	V &   &   & X & X & X & X &   & \\ \hline	
+	VI &   &   & X & X &   & X & X & \\ \hline	
+	VII &   &   & X & X & X & X & X & \\ \hline
+	VIII &     &   &   &   &   &   & X \\ \hline		
+\end{tabular}
