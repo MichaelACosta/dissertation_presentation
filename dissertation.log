@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  8 JUN 2021 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  8 JUN 2021 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1601,18 +1601,16 @@ l.355 \end{frame}
 
 ] [11
 
-] [12
-
 ]
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <7> not available
 (Font)              Font shape `T1/txss/bx/n' tried instead on input line 481.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 6.64998pt on input line 481.
- [13
+ [12
+
+] [13
 
 ] [14
-
-] [15
 
 ]
 \tf@nav=\write7
@@ -1630,17 +1628,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 350AA1CA78CA7A04AC6C7CA365FDDA6D;322.
+(rerunfilecheck)             Checksum: C4B461F151FB38EA37CD9A08619B35D3;265.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34890 strings out of 481239
- 817398 string characters out of 5920377
+ 34881 strings out of 481239
+ 817317 string characters out of 5920377
  1221821 words of memory out of 5000000
- 49314 multiletter control sequences out of 15000+600000
+ 49308 multiletter control sequences out of 15000+600000
  596753 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,103p,775b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1649,10 +1647,10 @@ e/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on dissertation.pdf (15 pages, 98316 bytes).
+Output written on dissertation.pdf (14 pages, 96662 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

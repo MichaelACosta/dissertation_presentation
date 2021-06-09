@@ -3,5 +3,4 @@
 \beamer@sectionintoc {2}{Memórias Transacionais}{5}{0}{2}
 \beamer@sectionintoc {3}{Escalonadores}{7}{0}{3}
 \beamer@sectionintoc {4}{Arquiteturas}{11}{0}{4}
-\beamer@sectionintoc {5}{Próximas Atividades}{12}{0}{5}
-\beamer@sectionintoc {6}{Cronograma de Atividades}{13}{0}{6}
+\beamer@sectionintoc {5}{Cronograma de Atividades}{12}{0}{5}
