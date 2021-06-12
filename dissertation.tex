@@ -449,13 +449,24 @@ MCATS & Modelo Analítico \\
 
 \begin{frame} \frametitle{LTMS - Matrizes}
     \begin{block}{Matriz de Comunicação}
-        ...
+        \begin{itemize}
+        	\item Quantidade de comunicação entre pares de threads;
+        	\item Eventos de Comunicação; e
+        	\item 1 evento a cada 100 acessos.
+        \end{itemize}
     \end{block}
+    % A matriz de comunicação fornece insumos sobre a quantidade eventos de comunicação entre dois threads, onde cada posição da matriz representa a quantidade de comunicação entre pares de threads.
 \end{frame}
 
 \begin{frame} \frametitle{LTMS - Matrizes}
     \begin{block}{Matriz de Endereços}
-        ...
+        \begin{itemize}
+        	\item Endereço mais acessado entre pares de threads;
+        	\item Tabela Hash;
+        	\item Endereços de memória; e 
+            \item Quantidade de acessos recebidos.
+        \end{itemize}
+        % possui para cada posição uma tabela hash que contem uma estrutura de chave e valor. Esta estrutura utiliza como chave o endereço de memória acessado e como valor, a quantidade de acessos que este endereço recebeu.Quando duas threds acessam o mesmo endereço de memória, um evento é disparado, este evento busca na tabela hash a chave com endereço que foi acessado e incrementa o valor de acessos que este endereço recebeu.
     \end{block}
 \end{frame}
 
