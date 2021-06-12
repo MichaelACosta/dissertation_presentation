@@ -482,19 +482,33 @@ MCATS & Modelo Analítico \\
 
 \begin{frame} \frametitle{LTMS - Filas e Threads}
     \begin{block}{Identificação das filas e threads}
-        ...
+        \begin{itemize}
+        	\item Identificação das threads conflitantes; e
+        	\item Matriz de comunicação.
+        \end{itemize}
     \end{block}
+    % A etapa de identificação das threads conflitantes busca entender a aplicação e a arquitetura para definir para qual fila a thread que gerou o abort deve ser migrada.
 \end{frame}
 
 \begin{frame} \frametitle{LTMS - Heurísticas}
     \begin{block}{Threshold}
-        ...
+        \begin{itemize}
+        	\item Nível de contenção (Abort/Commit);
+        	\item Maior contenção;
+        	\item Menor contenção; e
+        	\item Limiar de 0.8 (80\% de contenção).
+        \end{itemize}
     \end{block}
 \end{frame}
 
 \begin{frame} \frametitle{LTMS - Heurísticas}
     \begin{block}{Latency}
-        ...
+        \begin{itemize}
+        	\item Matriz de endereços;
+        	\item Nodos NUMA;
+        	\item Bancos de memória; e
+        	\item Latencia.
+        \end{itemize}
     \end{block}
 \end{frame}
 
