@@ -274,24 +274,6 @@
     \end{alertblock}
 \end{frame}
 
-\section{Arquiteturas}
-\begin{frame} \frametitle{Arquiteturas}
-\begin{block}{UMA}
-\begin{itemize}
-	\item Uniform Memory access;
-	\item Possui um único barramento de acesso à memória; e
-	\item Único custo de acesso à memória.
-\end{itemize}
-\end{block}
-\begin{block}{NUMA}
-\begin{itemize}
-	\item Non-uniform Memory access;
-	\item Possui mais de um barramento de acesso à memória; e
-	\item O custo de acesso à memória é diferente conforme o núcleo utilizado.
-\end{itemize}
-\end{block}
-\end{frame}
-
 \section{Escalonadores}
 \begin{frame} \frametitle{Escalonadores}
 \begin{block}{Escalonadores de Transações}
@@ -358,12 +340,13 @@
     \resizebox{\columnwidth}{!}{
     \begin{tabular}{l|l|l|l|l|l|l|l}
     \hline
-     Escalonadores                     & LTMS    & ATS      & Shrink   & LUTS  & ProVIT  & STMap     & CAR-STM \\ \hline %escalonadores
-     Distribuição inicial de threads   & Sim     & Não      & Não      & Sim   & Não     & Não       & Não \\
-     Coleta de dados por threads       & Sim     & Não      & Sim      & Não   & Não     & Sim       & Não \\
-     Migração entre filas              & Sim     & Não      & Não      & Não   & Não     & Não       & Sim \\
-     Avalia a arquitetura              & Sim     & Não      & Não      & Não   & Não     & Sim       & Não \\
-     Técnica de escalonamento          & Reativo & Feedback & Predição & Mista & Mista   & Predição  & Reativo  \\
+     Escalonadores                     & LTMS    & STMap     & ATS      & Shrink   & LUTS  & ProVIT  & CAR-STM \\ \hline %escalonadores
+     Distribuição inicial de threads   & Sim     & Não       & Não      & Não      & Sim   & Não     & Não \\
+     Coleta de dados por threads       & Sim     & Sim       & Não      & Sim      & Não   & Não     & Não \\
+     Migração entre filas              & Sim     & Não       & Não      & Não      & Não   & Não     & Sim \\
+     Avalia a arquitetura              & Sim     & Sim       & Não      & Não      & Não   & Não     & Não \\
+     NUMA                              & Sim     & Sim       & Não      & Não      & Não   & Não     & Não \\
+     Técnica de escalonamento          & Reativo & Predição  & Feedback & Predição & Mista & Mista   & Reativo  \\
     \hline
     \end{tabular}
     }
@@ -404,6 +387,24 @@
 % \end{itemize}
 % \end{block}
 % \end{frame}
+
+\section{Arquiteturas}
+\begin{frame} \frametitle{Arquiteturas}
+\begin{block}{UMA}
+\begin{itemize}
+	\item Uniform Memory access;
+	\item Possui um único barramento de acesso à memória; e
+	\item Único custo de acesso à memória.
+\end{itemize}
+\end{block}
+\begin{block}{NUMA}
+\begin{itemize}
+	\item Non-uniform Memory access;
+	\item Possui mais de um barramento de acesso à memória; e
+	\item O custo de acesso à memória é diferente conforme o núcleo utilizado.
+\end{itemize}
+\end{block}
+\end{frame}
 
 \section{LTMS}
 \begin{frame} \frametitle{LTMS}
