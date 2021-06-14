@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  12 JUN 2021 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  13 JUN 2021 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,6 +1057,34 @@ Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
 \FV@StepNumber=\count346
 \FV@OutFile=\write5
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen293
+\captionmargin@=\dimen294
+\captionwidth=\dimen295
+\caption@tempdima=\dimen296
+\caption@indent=\dimen297
+\caption@parindent=\dimen298
+\caption@hangindent=\dimen299
+Package caption Info: beamer document class detected.
+)
+\c@KVtest=\count347
+\sf@farskip=\skip71
+\sf@captopadj=\dimen300
+\sf@capskip=\skip72
+\sf@nearskip=\skip73
+\c@subfigure=\count348
+\c@subfigure@save=\count349
+\c@depth=\count350
+\c@subtable=\count351
+\c@subtable@save=\count352
+\sf@top=\skip74
+\sf@bottom=\skip75
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
@@ -1074,8 +1102,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen293
-\pgf@nodesepend=\dimen294
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1089,8 +1117,8 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen295
-\pgffor@skip=\dimen296
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
 ))
@@ -1100,33 +1128,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count347
-\pgfplotmarksize=\dimen297
+\pgf@plot@mark@count=\count353
+\pgfplotmarksize=\dimen305
 )
-\tikz@lastx=\dimen298
-\tikz@lasty=\dimen299
-\tikz@lastxsaved=\dimen300
-\tikz@lastysaved=\dimen301
-\tikz@lastmovetox=\dimen302
-\tikz@lastmovetoy=\dimen303
-\tikzleveldistance=\dimen304
-\tikzsiblingdistance=\dimen305
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
 \tikz@figbox=\box124
 \tikz@figbox@bg=\box125
 \tikz@tempbox=\box126
 \tikz@tempbox@bg=\box127
-\tikztreelevel=\count348
-\tikznumberofchildren=\count349
-\tikznumberofcurrentchild=\count350
-\tikz@fig@count=\count351
+\tikztreelevel=\count354
+\tikznumberofchildren=\count355
+\tikznumberofcurrentchild=\count356
+\tikz@fig@count=\count357
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count352
-\pgfmatrixcurrentcolumn=\count353
-\pgf@matrix@numberofcolumns=\count354
+\pgfmatrixcurrentrow=\count358
+\pgfmatrixcurrentcolumn=\count359
+\pgf@matrix@numberofcolumns=\count360
 )
-\tikz@expandcount=\count355
+\tikz@expandcount=\count361
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1137,9 +1165,9 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \t@pgfplots@toka=\toks49
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen306
-\c@pgfplots@coordindex=\count356
-\c@pgfplots@scanlineindex=\count357
+\pgfplots@tmpa=\dimen314
+\c@pgfplots@coordindex=\count362
+\c@pgfplots@scanlineindex=\count363
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1156,13 +1184,13 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count358
+\c@pgfplotsarray@tmp=\count364
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count359
+\c@pgfplotstable@counta=\count365
 \t@pgfplotstable@a=\toks52
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
@@ -1175,7 +1203,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count360
+\c@pgfplotslibrarysurf@no=\count366
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -1202,14 +1230,14 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen307
-\pgfdecoratedremainingdistance=\dimen308
-\pgfdecoratedinputsegmentcompleteddistance=\dimen309
-\pgfdecoratedinputsegmentremainingdistance=\dimen310
-\pgf@decorate@distancetomove=\dimen311
-\pgf@decorate@repeatstate=\count361
-\pgfdecorationsegmentamplitude=\dimen312
-\pgfdecorationsegmentlength=\dimen313
+\pgfdecoratedcompleteddistance=\dimen315
+\pgfdecoratedremainingdistance=\dimen316
+\pgfdecoratedinputsegmentcompleteddistance=\dimen317
+\pgfdecoratedinputsegmentremainingdistance=\dimen318
+\pgf@decorate@distancetomove=\dimen319
+\pgf@decorate@repeatstate=\count367
+\pgfdecorationsegmentamplitude=\dimen320
+\pgfdecorationsegmentlength=\dimen321
 )
 \tikz@lib@dec@box=\box128
 )
@@ -1221,13 +1249,13 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count362
-\pgfplots@xmin@reg=\dimen314
-\pgfplots@xmax@reg=\dimen315
-\pgfplots@ymin@reg=\dimen316
-\pgfplots@ymax@reg=\dimen317
-\pgfplots@zmin@reg=\dimen318
-\pgfplots@zmax@reg=\dimen319
+\pgfplots@numplots=\count368
+\pgfplots@xmin@reg=\dimen322
+\pgfplots@xmax@reg=\dimen323
+\pgfplots@ymin@reg=\dimen324
+\pgfplots@ymax@reg=\dimen325
+\pgfplots@zmin@reg=\dimen326
+\pgfplots@zmax@reg=\dimen327
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1259,15 +1287,15 @@ File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 78.
+(hyperref)                removing `\\' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 78.
+(hyperref)                removing `\\' on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count363
+\l__kernel_color_stack_int=\count369
 \l__pdf_internal_box=\box129
 )
 (./dissertation.aux
@@ -1280,53 +1308,53 @@ LaTeX Warning: Label `fig:abusy' multiply defined.
 )
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 90.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 91.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-90.
+91.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 91.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-90.
+91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 91.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-90.
+91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 91.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 LaTeX Font Info:    Trying to load font information for T1+txss on input line 9
-0.
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 90.
+(Font)              scaled to size 9.49997pt on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1364,16 +1392,16 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen320
+\scratchcounter=\count370
+\scratchdimen=\dimen328
 \scratchbox=\box130
-\nofMPsegments=\count365
-\nofMParguments=\count366
+\nofMPsegments=\count371
+\nofMParguments=\count372
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen321
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen329
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
 \everyMPtoPDFconversion=\toks54
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1386,7 +1414,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box131
-Package hyperref Info: Link coloring OFF on input line 90.
+Package hyperref Info: Link coloring OFF on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1397,58 +1425,58 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count370
+\c@section@level=\count376
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write6
 \openout6 = `dissertation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 90.
+(Font)                  OT1/txr/m/n --> OT1/cmss/m/n on input line 91.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/cmss/b/n on input line 90.
+(Font)                  OT1/txr/bx/n --> OT1/cmss/b/n on input line 91.
 \symnumbers=\mathgroup10
 \sympureletters=\mathgroup11
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 90.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 90.
+(Font)                  OT1/cmss/m/n --> T1/txr/m/n on input line 91.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> T1/txss/b/n on input line 90.
+(Font)                  OT1/txr/bx/n --> T1/txss/b/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> T1/txss/b/n on input line 90.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 90.
+(Font)                  OT1/txr/bx/n --> T1/txss/b/n on input line 91.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 90.
+(Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 90.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 90.
+(Font)                  OT1/txss/b/n --> T1/txss/m/n on input line 91.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 90.
+(Font)                  OT1/txr/m/it --> T1/txss/m/it on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 90.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 90.
+(Font)                  OT1/txr/bx/it --> T1/txss/m/it on input line 91.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 90.
+(Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 90.
+(Font)                  OT1/txtt/b/n --> T1/txtt/m/n on input line 91.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/b/n on input line 90.
+(Font)                  T1/txss/m/n --> T1/txss/b/n on input line 91.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/b/it on input line 90.
+(Font)                  T1/txss/m/it --> T1/txss/b/it on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/txr/b/n on input line 90.
+(Font)                  OT1/cmss/b/n --> T1/txr/b/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/txss/b/n --> T1/txss/b/n on input line 90.
+(Font)                  T1/txss/b/n --> T1/txss/b/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/txss/m/n --> T1/txss/b/n on input line 90.
+(Font)                  T1/txss/m/n --> T1/txss/b/n on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/txss/m/it --> T1/txss/b/it on input line 90.
+(Font)                  T1/txss/m/it --> T1/txss/b/it on input line 91.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/txtt/m/n --> T1/txtt/b/n on input line 90.
+(Font)                  T1/txtt/m/n --> T1/txtt/b/n on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1474,77 +1502,81 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 90.
+ on input line 91.
 
 (./dissertation.nav)
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 90.
+(Font)              scaled to size 4.74998pt on input line 91.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <5> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 90.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 4.74998pt on input line 90.
+(Font)              scaled to size 4.74998pt on input line 91.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <10> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 93.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 9.49997pt on input line 93.
+(Font)              scaled to size 9.49997pt on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 93.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 93.
+(Font)              scaled to size 13.67995pt on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 93.
+(Font)              scaled to size 6.64998pt on input line 94.
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 9
-3.
+4.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 9
-3.
+4.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 9
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 9
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-3.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <7> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 93.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 93.
+(Font)              scaled to size 6.64998pt on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <5> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 93.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 4.74998pt on input line 93.
+(Font)              scaled to size 4.74998pt on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <4> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 93.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 94.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 93.
+(Font)              scaled to size 3.79999pt on input line 94.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <./images/lups_oficial.png>]
@@ -1557,9 +1589,9 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 
  <./images/lups_timbre.png>]
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 118.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 119.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 118.
+(Font)              scaled to size 9.49997pt on input line 119.
  [3
 
 ] [4
@@ -1572,34 +1604,34 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 305.
+(Font)              scaled to size 8.54997pt on input line 306.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 305.
+(Font)              scaled to size 5.69998pt on input line 306.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 305.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 306.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 8.54997pt on input line 305.
+(Font)              scaled to size 8.54997pt on input line 306.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <6> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 305.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 306.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 305.
+(Font)              scaled to size 5.69998pt on input line 306.
 
 [8
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 335.
+(Font)              scaled to size 7.59998pt on input line 336.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <8> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 335.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 336.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 335.
+(Font)              scaled to size 7.59998pt on input line 336.
  [9
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{tab:compare}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.355 \end{frame}
+l.356 \end{frame}
                   [10
 
 ] [11
@@ -1614,7 +1646,7 @@ l.355 \end{frame}
 <images/Queue_one.png, id=278, 752.8125pt x 230.8625pt>
 File: images/Queue_one.png Graphic file (type png)
 <use images/Queue_one.png>
-Package pdftex.def Info: images/Queue_one.png  used on input line 430.
+Package pdftex.def Info: images/Queue_one.png  used on input line 431.
 (pdftex.def)             Requested size: 301.11966pt x 92.34335pt.
  [15
 
@@ -1622,13 +1654,13 @@ Package pdftex.def Info: images/Queue_one.png  used on input line 430.
 <images/Queue_chunks.png, id=295, 752.8125pt x 230.8625pt>
 File: images/Queue_chunks.png Graphic file (type png)
 <use images/Queue_chunks.png>
-Package pdftex.def Info: images/Queue_chunks.png  used on input line 438.
+Package pdftex.def Info: images/Queue_chunks.png  used on input line 439.
 (pdftex.def)             Requested size: 301.11966pt x 92.34335pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:abusy}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.438 \end{frame}
+l.439 \end{frame}
                   [16
 
  <./images/Queue_chunks.png>] [17
@@ -1652,15 +1684,34 @@ l.438 \end{frame}
 
 ] [26
 
-] [27
+] (./tempo.tex
+LaTeX Font Info:    Font shape `T1/txss/b/n' in size <8> not available
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 7.59998pt on input line 81.
 
-] [28
+Overfull \hbox (24.41759pt too wide) in paragraph at lines 81--121
+ [][] 
+ []
 
-] [29
+) [27
+
+] (./tempo2.tex
+Overfull \hbox (24.41759pt too wide) in paragraph at lines 41--81
+ [][] 
+ []
+
+) [28
+
+] (./tempo3.tex) [29
 
 ] [30
 
 ] [31
+
+] [32
+
+] [33
 
 ]
 \tf@nav=\write7
@@ -1672,11 +1723,11 @@ l.438 \end{frame}
 \tf@snm=\write9
 \openout9 = `dissertation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 722.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 722.
  (./dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 715.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 715.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 722.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 722.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: B8604E1719698B7E53661F68C9B64A71;384.
 
@@ -1685,22 +1736,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 34961 strings out of 481239
- 817958 string characters out of 5920377
- 1215821 words of memory out of 5000000
- 49351 multiletter control sequences out of 15000+600000
- 593775 words of font info for 120 fonts, out of 8000000 for 9000
+ 36343 strings out of 481239
+ 847944 string characters out of 5920377
+ 1534242 words of memory out of 5000000
+ 50705 multiletter control sequences out of 15000+600000
+ 596753 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,15n,103p,775b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,20n,109p,775b,2822s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on dissertation.pdf (31 pages, 156325 bytes).
+Output written on dissertation.pdf (33 pages, 184693 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 525 compressed objects within 6 object streams
+ 82 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 
