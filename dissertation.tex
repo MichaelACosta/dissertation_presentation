@@ -274,6 +274,24 @@
     \end{alertblock}
 \end{frame}
 
+\section{Arquiteturas}
+\begin{frame} \frametitle{Arquiteturas}
+\begin{block}{UMA}
+\begin{itemize}
+	\item Uniform Memory access;
+	\item Possui um único barramento de acesso à memória; e
+	\item Único custo de acesso à memória.
+\end{itemize}
+\end{block}
+\begin{block}{NUMA}
+\begin{itemize}
+	\item Non-uniform Memory access;
+	\item Possui mais de um barramento de acesso à memória; e
+	\item O custo de acesso à memória é diferente conforme o núcleo utilizado.
+\end{itemize}
+\end{block}
+\end{frame}
+
 \section{Escalonadores}
 \begin{frame} \frametitle{Escalonadores}
 \begin{block}{Escalonadores de Transações}
@@ -307,53 +325,71 @@
 
 
 \begin{frame} \frametitle{Escalonadores}
-\begin{block}{Trabalhos Relacionados}
+% \begin{block}{Trabalhos Relacionados}
+% \begin{table}[]
+% \footnotesize
+% \centering
+% \caption{Algoritmos e técnicas de escalonamento}
+% \label{tab:compare}
+% \begin{tabular}{l|l}
+% \hline
+% Escalonador & Técnica \\ \hline
+% ATS & Feedback \\
+% Probe & Feedback \\
+% F2C2 & Feedback \\
+% Shrink & Predição \\
+% SCA & Predição \\
+% CAR-STM & Reativo \\
+% RelSTM & Reativo \\
+% LUTS & Heurística Mista \\
+% ProVIT & Heurística Mista \\
+% SAC-STM & Aprendizado de Máquina \\
+% CSR-STM & Modelo Analítico \\
+% MCATS & Modelo Analítico \\
+% AML & Modelo Misto \\
+% \hline
+% \end{tabular}
+% \end{table}
 \begin{table}[]
-\footnotesize
-\centering
-\caption{Algoritmos e técnicas de escalonamento}
-\label{tab:compare}
-\begin{tabular}{l|l}
-\hline
-Escalonador & Técnica \\ \hline
-ATS & Feedback \\
-Probe & Feedback \\
-F2C2 & Feedback \\
-Shrink & Predição \\
-SCA & Predição \\
-CAR-STM & Reativo \\
-RelSTM & Reativo \\
-LUTS & Heurística Mista \\
-ProVIT & Heurística Mista \\
-SAC-STM & Aprendizado de Máquina \\
-CSR-STM & Modelo Analítico \\
-MCATS & Modelo Analítico \\
-AML & Modelo Misto \\
-\hline
-\end{tabular}
-\end{table}
-\end{block}
+    \footnotesize
+    % \centering
+    \caption{Comparativo entre os escalonadores apresentados}
+    \label{tab:compare_ltms}
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{l|l|l|l|l|l|l|l}
+    \hline
+     Escalonadores                     & LTMS    & ATS      & Shrink   & LUTS  & ProVIT  & STMap     & CAR-STM \\ \hline %escalonadores
+     Distribuição inicial de threads   & Sim     & Não      & Não      & Sim   & Não     & Não       & Não \\
+     Coleta de dados por threads       & Sim     & Não      & Sim      & Não   & Não     & Sim       & Não \\
+     Migração entre filas              & Sim     & Não      & Não      & Não   & Não     & Não       & Sim \\
+     Avalia a arquitetura              & Sim     & Não      & Não      & Não   & Não     & Sim       & Não \\
+     Técnica de escalonamento          & Reativo & Feedback & Predição & Mista & Mista   & Predição  & Reativo  \\
+    \hline
+    \end{tabular}
+    }
+   \end{table}
+% \end{block}
 \end{frame}
 
-\begin{frame} \frametitle{Escalonadores}
-\begin{block}{Trabalhos Relacionados}
-\begin{table}[]
-\footnotesize
-\centering
-\caption{Algoritmos que estamos trabalhando}
-\label{tab:compare}
-\begin{tabular}{l|l}
-\hline
-Escalonador & Técnica \\ \hline
-Probe & Feedback \\
-F2C2 & Feedback \\
-Shrink & Predição \\
-MCATS & Modelo Analítico \\
-\hline
-\end{tabular}
-\end{table}
-\end{block}
-\end{frame}
+% \begin{frame} \frametitle{Escalonadores}
+% \begin{block}{Trabalhos Relacionados}
+% \begin{table}[]
+% \footnotesize
+% \centering
+% \caption{Algoritmos que estamos trabalhando}
+% \label{tab:compare}
+% \begin{tabular}{l|l}
+% \hline
+% Escalonador & Técnica \\ \hline
+% Probe & Feedback \\
+% F2C2 & Feedback \\
+% Shrink & Predição \\
+% MCATS & Modelo Analítico \\
+% \hline
+% \end{tabular}
+% \end{table}
+% \end{block}
+% \end{frame}
 
 % \begin{frame} \frametitle{Escalonadores}
 % \begin{block}{Shrink}
@@ -369,24 +405,6 @@ MCATS & Modelo Analítico \\
 % \end{block}
 % \end{frame}
 
-\section{Arquiteturas}
-\begin{frame} \frametitle{Arquiteturas}
-\begin{block}{UMA}
-\begin{itemize}
-	\item Uniform Memory access;
-	\item Possui um único barramento de acesso à memória; e
-	\item Único custo de acesso à memória.
-\end{itemize}
-\end{block}
-\begin{block}{NUMA}
-\begin{itemize}
-	\item Non-uniform Memory access;
-	\item Possui mais de um barramento de acesso à memória; e
-	\item O custo de acesso à memória é diferente conforme o núcleo utilizado.
-\end{itemize}
-\end{block}
-\end{frame}
-
 \section{LTMS}
 \begin{frame} \frametitle{LTMS}
     \begin{block}{Estágios}
@@ -399,11 +417,12 @@ MCATS & Modelo Analítico \\
 \end{frame}
 
 \begin{frame} \frametitle{LTMS}
-    \begin{block}{Escalonador}
-        \begin{itemize}
-        	\item imagem
-        \end{itemize}
-    \end{block}
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[scale=0.2]{images/LTMS}
+        \caption{Fluxograma do LTMS}
+        \label{fig:abusy}
+    \end{figure}
 \end{frame}
 
 \begin{frame} \frametitle{LTMS - Estágio 1}
@@ -430,7 +449,7 @@ MCATS & Modelo Analítico \\
     \end{figure}
 \end{frame}
 
-\begin{frame} \frametitle{LTMS- Heurísticas}
+\begin{frame} \frametitle{LTMS - Heurísticas}
     \begin{figure}[!h]
         \includegraphics[scale=0.4]{images/Queue_chunks}
         \caption{Heurística Chunks}
