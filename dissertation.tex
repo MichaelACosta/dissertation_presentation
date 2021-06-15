@@ -121,12 +121,34 @@
 \begin{frame} \frametitle{Introdução}
     \begin{block}{Objetivos}
         \begin{itemize}
-        	\item Projetar um escalonador de STM modular que considera a arquitetura utilizada, intitulado LTMS;
-        	\item Prototipar o escalonador LTMS, utilizando a biblioteca de STM TinySTM; e
-			\item Análisar de desempenho do LTMS comparado a TinySTM utilizando o conjunto de benchmarks STAMP.
+        	\item Investigar escalonadores de Memórias Transacionais em NUMA.
+        \end{itemize}
+    \end{block}
+    \begin{block}{Contribuições}
+        \begin{itemize}
+        	\item Projeto de um escalonador de STM intitulado LTMS;
+        	\item Prototipação do escalonador LTMS; e
+			\item Análise de desempenho do LTMS comparado a TinySTM.
         \end{itemize}
     \end{block}
 \end{frame}
+
+\begin{frame} \frametitle{Introdução}
+    \begin{block}{Características}
+        \begin{itemize}
+        	\item Mecanismo para leitura da arquitetura e criação de filas;
+        	\item Duas diferentes heurísticas de distribuição inicial de threads;
+        	\item Mecanismo que em tempo de execução coleta informações sobre as threads;
+        	\item Mecanismo de migração de threads entre as filas de execução; e
+        	\item Duas heurísticas de migração.            
+        \end{itemize}
+    \end{block}
+\end{frame}
+% • Um mecanismo para leitura da arquitetura e criação de filas com conhecimento sobre os nodos NUMA utilizados, onde cada fila utilizará um único núcleo disponível da arquitetura;
+% • Duas diferentes heurísticas de distribuição inicial de threads que podem ser aplicadas para compreender o impacto da distribuição inicial de threads em aplicações paralelas;
+% • Um mecanismo que em tempo de execução coleta informações sobre as threads e armazena os endereços de memória mais utilizados por cada thread, para então mensurar com base nos nodos NUMA utilizados os diferentes custo de acesso à memória;
+% • Um mecanismo de migração de threads entre as filas de execução, que permite a serialização de threads conflitantes e não reduz o paralelismo da aplicação; e
+% • Duas heurísticas de migração adicionadas ao escalonador para estudar e compreender o impacto que a redução da latência e o alto índice de conflitos possuem sobre aplicações de STM.
 
 \section{Memórias Transacionais}
 
@@ -495,7 +517,7 @@
     \begin{block}{Migração de Threads}
         \begin{itemize}
         	\item Abort;
-        	\item Identificação; e
+        	\item Identificar a melhor fila; e
             \item Heurísticas de migração.
         \end{itemize}
     \end{block}
