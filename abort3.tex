@@ -1,5 +1,7 @@
 \begin{figure}[!ht]
     \centering
+    \includegraphics[scale=0.3]{images/legend}
+    
     \subfloat[Yada]{
         \label{abortYada}
         \begin{tikzpicture}[scale=0.35, baseline]
@@ -10,7 +12,7 @@
             %media de tempo intruder
             ybar=2.5pt,
             %enlargelimits=0.10,
-            legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
+            % legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
             ylabel=Aborts,
             xlabel=Threads,
             symbolic x coords={1, 2, 4, 8, 16, 32, 64, 128, 256, 512},
@@ -36,12 +38,8 @@
         \addplot+[error bars,y dir=both, y explicit] coordinates {
             (1,0.0)+-(1,0.0) (2,1483981.3)+-(2,5287.71) (4,34983.38)+-(4,21305.7) (8,4728374.12)+-(8,2263748.1) (16,5260517.0)+-(16,3862894.25) (32,9462941.0)+-(32,3192100.38) (64,8837692.27)+-(64,384722.0) (128,13729279.5)+-(128,110344.5) (256,8874348.23)+-(256,63743.0) (512,11973628.0)+-(512,837874.02)
         };
-        \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
+        % \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
         \end{axis}
         \end{tikzpicture}
     }
-    
-    % \caption{Aborts em NUMA variando o número de \emph{threads}.}
-    % \label{abort2}
-
 \end{figure}

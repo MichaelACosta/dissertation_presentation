@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  15 JUN 2021 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.12)  16 JUN 2021 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1691,30 +1691,50 @@ l.481 \end{frame}
 ] [26
 
 ] (./tempo.tex
+<images/legend.png, id=453, 711.65875pt x 47.17625pt>
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <8> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 81.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 7.59998pt on input line 81.
+(Font)              scaled to size 7.59998pt on input line 43.
 
-Overfull \hbox (24.41759pt too wide) in paragraph at lines 81--121
- [][] 
+Overfull \hbox (24.41759pt too wide) in paragraph at lines 43--83
+ [][][] 
  []
 
 ) [27
 
-] (./tempo2.tex
-Overfull \hbox (24.41759pt too wide) in paragraph at lines 41--81
- [][] 
+ <./images/legend.png>] (./tempo2.tex
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
+
+Overfull \hbox (24.41759pt too wide) in paragraph at lines 43--83
+ [][][] 
  []
 
 ) [28
 
-] (./tempo3.tex) [29
+] (./tempo3.tex
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
+) [29
 
 ] (./abort.tex
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
+
 
 Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
-log. on input line 83.
+log. on input line 44.
 
  [warning /pgfplots/warning/illegal user argument in log axis]
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
@@ -1729,7 +1749,7 @@ NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see
 also unbounded coords=jump). 
 
 Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
-log. on input line 123.
+log. on input line 84.
 
  [warning /pgfplots/warning/illegal user argument in log axis]
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
@@ -1743,16 +1763,21 @@ also unbounded coords=jump).
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
 also unbounded coords=jump). 
 
-Overfull \hbox (23.70729pt too wide) in paragraph at lines 83--124
- [][] 
+Overfull \hbox (23.70729pt too wide) in paragraph at lines 44--85
+ [][][] 
  []
 
 ) [30
 
 ] (./abort2.tex
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
+
 
 Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
-log. on input line 42.
+log. on input line 44.
 
  [warning /pgfplots/warning/illegal user argument in log axis]
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
@@ -1767,7 +1792,7 @@ NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see
 also unbounded coords=jump). 
 
 Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
-log. on input line 82.
+log. on input line 84.
 
  [warning /pgfplots/warning/illegal user argument in log axis]
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
@@ -1781,16 +1806,21 @@ also unbounded coords=jump).
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
 also unbounded coords=jump). 
 
-Overfull \hbox (23.70729pt too wide) in paragraph at lines 42--83
- [][] 
+Overfull \hbox (23.70729pt too wide) in paragraph at lines 44--85
+ [][][] 
  []
 
 ) [31
 
 ] (./abort3.tex
+File: images/legend.png Graphic file (type png)
+<use images/legend.png>
+Package pdftex.def Info: images/legend.png  used on input line 3.
+(pdftex.def)             Requested size: 213.49927pt x 14.15297pt.
+
 
 Package pgfplots Warning: Ignoring illegal input argument ymin=0: cannot apply 
-log. on input line 42.
+log. on input line 44.
 
  [warning /pgfplots/warning/illegal user argument in log axis]
 NOTE: coordinate (1,0.0) has been dropped because it is unbounded (in y). (see 
@@ -1834,22 +1864,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 36444 strings out of 481239
- 849646 string characters out of 5920377
- 1546857 words of memory out of 5000000
- 50787 multiletter control sequences out of 15000+600000
+ 36371 strings out of 481239
+ 848212 string characters out of 5920377
+ 1539647 words of memory out of 5000000
+ 50714 multiletter control sequences out of 15000+600000
  596753 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,20n,109p,775b,2822s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,15n,109p,775b,2822s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb>
-Output written on dissertation.pdf (35 pages, 285123 bytes).
+Output written on dissertation.pdf (35 pages, 287189 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
+ 630 PDF objects out of 1000 (max. 8388607)
  558 compressed objects within 6 object streams
  91 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

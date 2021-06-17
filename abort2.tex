@@ -1,5 +1,7 @@
 \begin{figure}[!ht]
-    % \centering
+    \centering
+    \includegraphics[scale=0.3]{images/legend}
+    
     \subfloat[Labyrinth]{
         \label{abortLabyrinth}
         \begin{tikzpicture}[scale=0.35, baseline]
@@ -10,7 +12,7 @@
             %media de tempo intruder
             ybar=2.5pt,
             %enlargelimits=0.10,
-            legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
+            % legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
             ylabel=Aborts,
             xlabel=Threads,
             symbolic x coords={1, 2, 4, 8, 16, 32, 64, 128, 256, 512},
@@ -36,7 +38,7 @@
         \addplot+[error bars,y dir=both, y explicit] coordinates {
             (1,0.0)+-(1,0.0) (2,11.0)+-(2,1.2) (4,55.72)+-(4,10.82) (8,143.2)+-(8,25.75) (16,286.0)+-(16,10.86) (32,496.6)+-(32,19.73) (64,812.0)+-(64,38.57) (128,1238.6)+-(128,53.69) (256,1629.6)+-(256,55.64) (512,2933.4)+-(512,289.46)
         };
-        \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
+        % \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
         \end{axis}
         \end{tikzpicture}
     }
@@ -80,49 +82,4 @@
         \end{axis}
         \end{tikzpicture}
     }
-
-    % \subfloat[Yada]{
-    %     \label{abortYada}
-    %     \begin{tikzpicture}[scale=0.55, baseline]
-    %     \begin{axis}[
-    %         ymode=log,
-    %         width=1.5 \linewidth,
-    %         height=0.8 \linewidth,
-    %         %media de tempo intruder
-    %         ybar=3pt,
-    %         %enlargelimits=0.10,
-    %         legend style={at={(0.5,-0.15)}, anchor=north, legend columns=-1},
-    %         ylabel=Aborts,
-    %         xlabel=Threads,
-    %         symbolic x coords={1, 2, 4, 8, 16, 32, 64, 128, 256, 512},
-    %         xtick=data,
-    %         ymin=0,
-    %         ymax=400000000000,
-    %         bar width=7pt,
-    %         % nodes near coords,
-    %         nodes near coords align={vertical},
-    %     ]
-    %     \addplot+[error bars,y dir=both, y explicit] coordinates {
-    %         (1,0.0)+-(1,0.0) (2,53805739.2)+-(2,945974.4856792702) (4,136025541.2)+-(4,4837342.13) (8,281305083.6)+-(8,28618515.67361887) (16,455944205.2)+-(16,138166587.07) (32,1205121875.2)+-(32,315403375.80832976) (64,4297295036.4)+-(64,1609418223.03) (128,27371816768.6)+-(128,18399453268.002537) (256,230017372308.6)+-(256,19982225506.96) (512,156775482845.2)+-(512,5418181512.20) 
-    %     };
-    %     \addplot+[error bars,y dir=both, y explicit] coordinates {
-    %         (1,0.0)+-(1,0.0) (2,1580633.2)+-(2,8478.500749542929) (4,3800972.6)+-(4,20650.110223434644) (8,6149664.4)+-(8,75882.93103880476) (16,7207458.2)+-(16,106075.91092684522) (32,7097792.4)+-(32,149914.3555148739) (64,7245601.6)+-(64,297306.3815181907) (128,6626592.6)+-(128,1601916.1098185633) (256,11035923.666666666)+-(256,1354186.7993902795) (512,11463741.25)+-(512,1422857.6912357355)
-    %     };
-    %     \addplot+[error bars,y dir=both, y explicit] coordinates {
-    %          (1,0.0)+-(1,0.0) (2,1586885.6)+-(2,17013.20809959133) (4,3864768.25)+-(4,23733.99245149244) (8,6283745.6)+-(8,79485.5) (16,7192878.4)+-(16,178424.65) (32,7378729.9)+-(32,18573.11) (64,4723078.0)+-(64,3928.0) (128,6736182.0)+-(128,37123.3) (256,8828877.0)+-(256,12847.0) (512,11637482.0)+-(512,82034.0) 
-    %     };
-    %     \addplot+[error bars,y dir=both, y explicit] coordinates {
-    %         (1,0.0)+-(1,0.0) (2,1502389.8)+-(2,8336.5398735266599) (4,34570.6)+-(4,17081.853735470282) (8,4673390.0)+-(8,3789634.775837482) (16,2964970.8)+-(16,290439.4272928145) (32,12301780.8)+-(32,1054972.452489657) (64,9002166.4)+-(64,735560.767845634) (128,14938022.8)+-(128,3727246.128412794) (256,8642330.0)+-(256,5465830.0) (512,11928378.731)+-(512,74928.0)
-    %     };
-    %     \addplot+[error bars,y dir=both, y explicit] coordinates {
-    %         (1,0.0)+-(1,0.0) (2,1483981.3)+-(2,5287.71) (4,34983.38)+-(4,21305.7) (8,4728374.12)+-(8,2263748.1) (16,5260517.0)+-(16,3862894.25) (32,9462941.0)+-(32,3192100.38) (64,8837692.27)+-(64,384722.0) (128,13729279.5)+-(128,110344.5) (256,8874348.23)+-(256,63743.0) (512,11973628.0)+-(512,837874.02)
-    %     };
-    %     \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
-    %     \end{axis}
-    %     \end{tikzpicture}
-    % }
-    
-    % \caption{Aborts em NUMA variando o número de \emph{threads}.}
-    % \label{abort2}
-
 \end{figure}

@@ -1,5 +1,7 @@
 \begin{figure}[!ht]
     \centering
+    \includegraphics[scale=0.3]{images/legend}
+
     \subfloat[Yada]{
         \label{Yada}
         \begin{tikzpicture}[scale=0.35, baseline]
@@ -9,7 +11,7 @@
             %media de tempo intruder
             ybar=2.5pt,
             %enlargelimits=0.10,
-            legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
+            % legend style={at={(0.45,1.1)}, anchor=south, legend columns=-1},
             ylabel=Tempo(s),
             xlabel=Threads,
             symbolic x coords={1, 2, 4, 8, 16, 32, 64, 128, 256, 512},
@@ -35,12 +37,8 @@
         \addplot+[error bars,y dir=both, y explicit] coordinates {
             (1,14.35)+-(1,0.05) (2,14.29)+-(2,0.04) (4,14.31)+-(4,0.08) (8,14.31)+-(8,0.05) (16,15.07)+-(16,4.06) (32,13.64)+-(32,1.83) (64,6.83)+-(64,1.09) (128,13.37)+-(128,2.19) (256,15.65)+-(256,0.16) (512,15.73)+-(512,0.14)
         };
-        \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
+        % \legend {Tiny, Latency-Sequential, Latency-Chunks, Threshold-Sequential, Threshold-Chunks}
         \end{axis}
         \end{tikzpicture}
     }
-
-    % \caption{Tempo de execução (s) em NUMA variando o número de \emph{threads}.}
-    % \label{temp2}
-
 \end{figure}
