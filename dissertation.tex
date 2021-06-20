@@ -71,7 +71,7 @@
 \renewcommand{\evento}{Defesa de Mestrado}
 
 % TITULO DA APRESENTACAO
-\title{LTMS - Lups Transactional Memory Scheduler: Um escalonador NUMA-Aware para STM.}
+\title{LTMS - Lups Transactional Memory Scheduler: Um escalonador NUMA-Aware para STM}
 
 %Autor
 \author{\textbf{Michael Alexandre Costa}\\
@@ -155,8 +155,7 @@
 \begin{frame} \frametitle{Memórias Transacionais}
     \begin{block}{Características}
         \begin{itemize}
-        	\item Fornece abstração de código;
-        	\item Reuso de código; e
+        	\item Fornece abstração de código; e
         	\item Ausência de deadlocks.
         \end{itemize}
     \end{block}
@@ -495,7 +494,7 @@
         \begin{itemize}
         	\item Quantidade de comunicação entre pares de threads;
         	\item Eventos de Comunicação; e
-        	\item 1 evento a cada 100 acessos.
+        	\item Coletado 1 evento a cada 100 acessos.
         \end{itemize}
     \end{block}
     % A matriz de comunicação fornece insumos sobre a quantidade eventos de comunicação entre dois threads, onde cada posição da matriz representa a quantidade de comunicação entre pares de threads.
@@ -504,10 +503,10 @@
 \begin{frame} \frametitle{LTMS - Matrizes}
     \begin{block}{Matriz de Endereços}
         \begin{itemize}
-        	\item Endereço mais acessado entre pares de threads;
-        	\item Tabela Hash;
-        	\item Endereços de memória; e 
-            \item Quantidade de acessos recebidos.
+        	\item Endereços em comum mais acessados entre os pares de threads;
+        	\item Utiliza uma Tabela Hash;
+        	\item Chave: Endereços de memória; e 
+            \item Valor: Quantidade de acessos recebidos.
         \end{itemize}
         % possui para cada posição uma tabela hash que contem uma estrutura de chave e valor. Esta estrutura utiliza como chave o endereço de memória acessado e como valor, a quantidade de acessos que este endereço recebeu.Quando duas threds acessam o mesmo endereço de memória, um evento é disparado, este evento busca na tabela hash a chave com endereço que foi acessado e incrementa o valor de acessos que este endereço recebeu.
     \end{block}
@@ -516,7 +515,7 @@
 \begin{frame} \frametitle{LTMS - Estágio 3}
     \begin{block}{Migração de Threads}
         \begin{itemize}
-        	\item Abort;
+        	\item Quando ocorre um abort;
         	\item Identificar a melhor fila; e
             \item Heurísticas de migração.
         \end{itemize}
@@ -526,7 +525,7 @@
 \begin{frame} \frametitle{LTMS - Filas e Threads}
     \begin{block}{Escolha das filas}
         \begin{itemize}
-        	\item Identificação das threads conflitantes; e
+        	\item Identifica os pares de threads; e
         	\item Matriz de comunicação.
         \end{itemize}
     \end{block}
@@ -536,9 +535,9 @@
 \begin{frame} \frametitle{LTMS - Heurísticas}
     \begin{block}{Threshold}
         \begin{itemize}
-        	\item Nível de contenção (Abort/Commit);
-        	\item Maior contenção;
-        	\item Menor contenção; e
+        	\item Avalia o nível de contenção (Abort/Commit);
+        	\item Limiar alto - Maior contenção - Menos migrações;
+        	\item Limiar baixo - Menor contenção - Mais migrações; e
         	\item Limiar de 0.8 (80\% de contenção).
         \end{itemize}
     \end{block}
@@ -547,10 +546,10 @@
 \begin{frame} \frametitle{LTMS - Heurísticas}
     \begin{block}{Latency}
         \begin{itemize}
+        	\item Avalia a latência de acesso à memória;
         	\item Matriz de endereços;
-        	\item Nodos NUMA;
-        	\item Bancos de memória; e
-        	\item Latência.
+        	\item Nodos NUMA; e
+        	\item Bancos de memória.
         \end{itemize}
     \end{block}
 \end{frame}
@@ -599,8 +598,10 @@
         \begin{itemize}
         	\item Bayes;
         	\item Intruder;
-        	\item Kmeans; e
-        	\item Labyrinth, Vacation, Yada.
+        	\item Kmeans;
+        	\item Labyrinth;
+            \item Vacation; e
+            \item Yada.
         \end{itemize}
     \end{block}
 \end{frame}
@@ -634,10 +635,10 @@
     \begin{block}{Analise}
         \begin{itemize}
         	\item Aplicações com conjunto pequeno de leitura e escrita;
-        	\item Transação com tempo longo, médio, ou baixo;
-        	\item Contenção alta, média ou baixa;
-        	\item Redução de 96\% no tempo de execução; e
-        	\item Redução de 99\% na ocorrencia de aborts.
+        	\item Melhor execução com tempo médio de transação;
+        	\item Melhor execução com alta contenção;
+        	\item Melhor caso com redução de 96\% no tempo de execução; e
+        	\item Melhor caso com redução de 99\% na ocorrência de aborts.
         \end{itemize}
     \end{block}
 \end{frame}
