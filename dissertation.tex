@@ -129,8 +129,18 @@
 % • Um mecanismo de migração de threads entre as filas de execução, que permite a serialização de threads conflitantes e não reduz o paralelismo da aplicação; e
 % • Duas heurísticas de migração adicionadas ao escalonador para estudar e compreender o impacto que a redução da latência e o alto índice de conflitos possuem sobre aplicações de STM.
 
-\section{Memórias Transacionais}
+\section{Conceitos Abordados}
+\begin{frame} \frametitle{Conceitos abordados no trabalho}
+    \begin{block}{Principais Conceitos}
+        \begin{itemize}
+        	\item Memórias Transacionais;
+        	\item Escalonadores de transações; e
+        	\item Arquiteturas.
+        \end{itemize}
+    \end{block}
+\end{frame}
 
+% \section{Memórias Transacionais}
 \begin{frame} \frametitle{Memórias Transacionais}
     \begin{block}{Características}
         \begin{itemize}
@@ -158,7 +168,7 @@
     \end{alertblock}
 \end{frame}
 
-\section{Escalonadores}
+% \section{Escalonadores}
 \begin{frame} \frametitle{Escalonadores}
 \begin{block}{Escalonadores de Transações}
 \begin{itemize}
@@ -170,24 +180,37 @@
 \end{frame}
 
 \begin{frame} \frametitle{Escalonadores}
-\begin{block}{Classificação das técnicas}
-\begin{itemize}
-	\item Baseado em Heurística:
-	\begin{itemize}
-	    \item Feedback;
-	    \item Predição;
-	    \item Reativo; e
-	    \item Heurística Mista.
-	\end{itemize}
-	\item Baseado em Modelo:
-	\begin{itemize}
-	    \item Aprendizado de Máquina;
-	    \item Modelo Analítico; e
-	    \item Modelo Misto.
-	\end{itemize}
-\end{itemize}
-\end{block}
+    \begin{block}{Trabalhos Estudados}
+        \begin{itemize}
+            \item ATS;
+            \item CAR-STM;
+            \item Shrink;
+            \item LUTS;
+            \item ProVIT; e
+            \item STMap.
+        \end{itemize}
+    \end{block}
 \end{frame}
+
+% \begin{frame} \frametitle{Escalonadores}
+% \begin{block}{Classificação das técnicas}
+% \begin{itemize}
+% 	\item Baseado em Heurística:
+% 	\begin{itemize}
+% 	    \item Feedback;
+% 	    \item Predição;
+% 	    \item Reativo; e
+% 	    \item Heurística Mista.
+% 	\end{itemize}
+% 	\item Baseado em Modelo:
+% 	\begin{itemize}
+% 	    \item Aprendizado de Máquina;
+% 	    \item Modelo Analítico; e
+% 	    \item Modelo Misto.
+% 	\end{itemize}
+% \end{itemize}
+% \end{block}
+% \end{frame}
 
 
 \begin{frame} \frametitle{Escalonadores}
@@ -211,7 +234,7 @@
    \end{table}
 \end{frame}
 
-\section{Arquiteturas}
+% \section{Arquiteturas}
 \begin{frame} \frametitle{Arquiteturas}
 \begin{block}{UMA}
 \begin{itemize}
@@ -243,7 +266,7 @@
 \begin{frame} \frametitle{LTMS}
     \begin{figure}[!h]
         \centering
-        \includegraphics[scale=0.2]{images/LTMS}
+        \includegraphics[scale=0.2]{images/LTMS1}
         \caption{Fluxograma do LTMS}
         \label{fig:abusy}
     \end{figure}
@@ -327,8 +350,10 @@
 \begin{frame} \frametitle{LTMS - Filas e Threads}
     \begin{block}{Escolha das filas}
         \begin{itemize}
-        	\item Identifica os pares de threads; e
-        	\item Matriz de comunicação.
+        	% \item Identifica os pares de threads;
+        	\item Identifica a fila que possui a thread com mais acessos em comum;
+        	\item Utiliza a matriz de comunicação; e
+        	\item Busca uma melhor coerência de cache.
         \end{itemize}
     \end{block}
     % A etapa de identificação das threads conflitantes busca entender a aplicação e a arquitetura para definir para qual fila a thread que gerou o abort deve ser migrada.
@@ -429,6 +454,18 @@
 \end{frame}
 
 \section{Conclusão}
+\begin{frame} \frametitle{Conclusão}
+    \begin{block}{Concluão}
+        \begin{itemize}
+        	\item Apresentamos o Escalonador LTMS;
+        	\item Foi prototipado utilizando a TinySTM; e
+        	\item Possui 3 etapas de execução.
+        	% \item Heurísticas de distribuição; e
+        	% \item Heurísticas de migração.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
 \begin{frame} \frametitle{Conclusão}
     \begin{block}{Analise}
         \begin{itemize}
