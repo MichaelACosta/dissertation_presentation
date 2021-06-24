@@ -227,7 +227,7 @@
      Migração entre filas              & Sim     & Não       & Não      & Não      & Não   & Não     & Sim \\
      Avalia a arquitetura              & Sim     & Sim       & Não      & Não      & Não   & Não     & Não \\
      NUMA                              & Sim     & Sim       & Não      & Não      & Não   & Não     & Não \\
-     Técnica de escalonamento          & Reativo & Predição  & Feedback & Predição & Mista & Mista   & Reativo  \\
+    %  Técnica de escalonamento          & Reativo & Predição  & Feedback & Predição & Mista & Mista   & Reativo  \\
     \hline
     \end{tabular}
     }
@@ -317,9 +317,9 @@
 \begin{frame} \frametitle{LTMS - Matrizes}
     \begin{block}{Matriz de Comunicação}
         \begin{itemize}
-        	\item Quantidade de comunicação entre pares de threads;
-        	\item Eventos de Comunicação; e
-        	\item Coletado 1 evento a cada 100 acessos.
+        	\item Eventos de comunicação são acessos em comum à memória;
+        	\item Quantidade de eventos de comunicação entre pares de threads; e
+        	\item É coletado 1 evento de comunicação a cada 100 acessos.
         \end{itemize}
     \end{block}
     % A matriz de comunicação fornece insumos sobre a quantidade eventos de comunicação entre dois threads, onde cada posição da matriz representa a quantidade de comunicação entre pares de threads.
@@ -472,8 +472,9 @@
         	\item Aplicações com conjunto pequeno de leitura e escrita;
         	\item Tamanho médio de transação apresentou melhor execução;
         	\item Alta contenção apresentou melhor tempo execução;
-        	\item Melhor caso com redução de 96\% no tempo de execução; e
-        	\item Melhor caso com redução de 99\% na ocorrência de aborts.
+        	\item Melhor caso com redução de 96\% no tempo de execução;
+        	\item Melhor caso com redução de 99\% na ocorrência de aborts; e
+        	\item Latency apresentou resultados melhores para maioria dos testes.
         \end{itemize}
     \end{block}
 \end{frame}
@@ -482,7 +483,7 @@
     \begin{block}{Trabalhos futuros}
         \begin{itemize}
         	\item Novas Heurísticas de distribuição;
-        	\item Heurísticas de migração híbrida; e
+        	\item Juntar as heurísticas de migração Threshold e Latency; e
         	\item Impacto energético dos escalonadores de STM.
         \end{itemize}
     \end{block}
